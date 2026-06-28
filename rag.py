@@ -58,7 +58,7 @@ vector = embedding_model.embed_query("What is RAG?")
 
 print(len(vector))
 
-PINECONE_API_KEY = "pcsk_6cBKqx_JcZxd8EGXrGaAgUJEPQCu9VWzZ1iznSGBWZrpZb7TjZS6oWPV3XT5vQpowAKNF1"
+PINECONE_API_KEY = ""
 
 pc = Pinecone(api_key=PINECONE_API_KEY)
 
@@ -124,7 +124,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
-    google_api_key="AQ.Ab8RN6Ir7QE6EnCQK4Gy-6PnN3HBjp8ezmjONewycKRq4bhusg"
+    google_api_key=""
 )
 
 question = "Explain RAG."
